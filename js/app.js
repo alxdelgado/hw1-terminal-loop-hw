@@ -55,6 +55,34 @@ for (let i = 0; i < 10; i++){
 }
 
 
+// SECTION 5 // 
+
+// Part 1: Set The Scene // 
+/* 
+cd documents/funky-ducks/06_11_2018_Command_Line
+mkdir homework_part_2
+cd homework_part_2
+mkdir death_star
+cd death_star
+touch darth_vader.txt
+touch princess_leia.txt
+touch storm_trooper.txt
+cd .. 
+-- in homework_part_2 top level -- 
+mkdir galaxy_far_far_away
+cd galaxy_far_far_away
+mkdir tatoonie
+cd tatoonie
+touch luke.txt
+touch ben_kenobi.txt
+mkdir millenium_falcon
+cd millenium_falcon
+touch han_solo.txt
+touch chewbaca.txt
+cd .. 
+cd ..
+-- in top level of homework_part_2 -- 
+
 
 
 
