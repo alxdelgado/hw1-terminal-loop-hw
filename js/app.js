@@ -9,4 +9,14 @@
   // You can use a for loop to write DRY code as an example. 
 
 // SECTION 2 // 
+// 1. a < b; 
+// 2. c > d; 
+// 3. 'name' === 'name'; 
+// 4. a < b < c;
+// 5. a__a__d; 
+// 6. e = 'kevin'; 
+// 7. 48 = '48'; 
+
+
+// SECTION 3 // 
 
