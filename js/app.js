@@ -19,4 +19,9 @@
 
 
 // SECTION 3 // 
+// 1. This is an infinite loop, there is no value set to end the loop. 
+// 2. No, because runProgram is set = false. 
+// 3. The code gave me the predicted response of 'AAAAAAAAAAAAAAA', as long as 'i' is < 20 the while loop will continue to pront the letters 'A'. 
+
+
 
