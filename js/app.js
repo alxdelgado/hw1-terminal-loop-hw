@@ -83,6 +83,70 @@ cd ..
 cd ..
 -- in top level of homework_part_2 -- 
 
+// Part II: mv - rename // 
+cd tatoonie 
+mv ben_kenobi.txt/ obi_wan.txt
+ls - list changes 
+
+// Part II: cp - copy 
+cd death_star 
+cp storm_tropper.txt/ tatoonie
+
+
+// Part IV: mv - move // 
+cd galaxy_far_far_away
+cd tatoonie
+mv luke.txt/ millenium_falcon
+mv obi_wan.txt/ millenium_falcon 
+mv tatoonie/millenium_falcon death_star/ 
+mv death_star/ princess_leia.txt galaxy_far_far_away/millenium_falcon/
+*/
+
+// Part V: rm - remove
+
+/*
+rm -rf galaxy_far_far_away/ millenium_falcon/obi_wan.txt
+*/
+
+// Part VI: all together
+
+/*
+mkdir galaxy_far_far_away/ yavin_4
+mv galaxy_far_far/millenium_falcon galaxy_far_far_away/yavin_4
+mkdir galaxy_far_far_away/yavin_4/x_wing
+mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4
+mv galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt galaxy_far_far_away/yavin_4/x_wing
+mv galaxy_far_far_away/yavin_4 galaxy_far_far_away
+mv galaxy_far_far_away/yavin_4/millenium_falcon galaxy_far_far_away
+mv galaxy_far_far_away/yavin_4/x_wing galaxy_far_far_away
+mkdir death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3
+mv death_star/tie_fighter_1 galaxy_far_far_away
+mv death_star/tie-fighter_2 galaxy_far_far_away
+mv death_star/tie_fighter_3 galaxy_far_far_away
+*/
+
+// Part VII: rm -r - remove directories
+
+/*
+rm -r galaxy_far_far_away/tie_fighter_2
+rm -r galaxy_far_far_away/tie_fighter_3
+*/
+
+// Part VIII: 
+
+/*
+touch galaxy_far_far_away/x_wing/the_force.txt
+rm -rf death_star
+mv galaxy_far_far_away/millenium_falcon galaxy_far_far_away/yavin_4
+mvgalaxy_far_far_away/x_wing galaxy_far_far_away/yavin_4
+*/
+
+
+
+
+
+
+
 
 
 
